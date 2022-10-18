@@ -21,7 +21,20 @@ img{
     width: 36%;
     height: 36%;
 }
+.container_button{
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text_signup{
+    margin-top: 20px;
+    margin-right: 20px;
+    
+    text-decoration: underline;
+    font-size: small;
+}
 
  
 

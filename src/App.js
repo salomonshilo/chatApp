@@ -1,9 +1,11 @@
 // import Inscription from "./Authentification/Inscription/Index";
 
-// import Inscription from "./Authentification/Inscription/Index";
+// import Inscription from "./Authentification/Inscription/Index;
 
-import Connexion from "./Authentification/connexion/Index";
+import Router from './Commons/Component/Routes'
+
 import Navbar from "./Commons/Component/Navbar";
+import Chat from './Message';
 
 
 
@@ -13,8 +15,13 @@ function App() {
 
   return (
     <div className="App">
-       <Navbar/>
+       <Chat />
+
+       {/* <div>
+       <Router/>
+       </div> */}
     </div>
+   
   );
 }
 
