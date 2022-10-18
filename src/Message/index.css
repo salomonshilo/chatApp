@@ -39,6 +39,7 @@
     background-color: #fff;
     margin-top: 20px;
     border-radius: 20px;
+    padding-top: 20px;
 }
 
 .container_conversation{
@@ -50,7 +51,7 @@
     border-radius: 20px;
 }
 
-img{
+.user_image{
     border-radius: 30px;
     margin: auto;
     margin-top: 30px;
@@ -99,4 +100,148 @@ img{
 
     margin-left: 120px;
 }
+.search_text{
+
+    font-size: small;
+}
+
+.users_recent{
+
+    width: 60px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+   
+}
+
+.text_recent{
+    margin-left: 30px;
+   
+    font-weight: bold;;
+}
+
+.image{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+.text_message{
+   font-size: small;
+   
+}
+
+h3,h4{
+    font-weight: bold;
+    display: block;
+   
+}
+
+.user_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.contain_user_info{
+    margin: auto;
+}
+.users_image_online{
+
+    width: 85px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+   
+}
+
+.send_message{
+
+    height: 40px;
+    width: 200px;
+    background-color: #cfcfcf;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    
+}
+
+.receive_message{
+    
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:#1966ff;
+    color: #fff;
+    margin-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 310px;
+
+}
+
+.contain_input_camera{
+
+    height: 45px;
+    width: 500px;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button_send_message{
+
+    width: 40px;
+    height: 40px;
+    background-color:#1966ff;
+
+    color: #fff;
+
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-left: 25px;
+   
+}
+
+.camera{
+
+    font-size: x-large;
+    margin-left: 200px;
+}
+.input_message{
+
+    background-color:#e0e0e0 ;
+}
+.writter_message {
+
+    display: flex;
+    flex-direction: row;
+  
+}
+
+/* .recent_message{
+
+
+
+} */
 
