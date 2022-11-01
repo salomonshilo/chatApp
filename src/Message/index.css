@@ -209,6 +209,12 @@ h3,h4{
     
 }
 
+.input_message{
+
+    height: 45px;
+    width: 500px;
+}
+
 .button_send_message{
 
     width: 40px;
@@ -226,7 +232,7 @@ h3,h4{
 .camera{
 
     font-size: x-large;
-    margin-left: 200px;
+   
 }
 .input_message{
 
@@ -237,6 +243,11 @@ h3,h4{
     display: flex;
     flex-direction: row;
   
+}
+
+input{
+
+    font-style: none;
 }
 
 /* .recent_message{

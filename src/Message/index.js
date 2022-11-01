@@ -9,7 +9,7 @@ function Chat() {
             <div className='container_user'> 
                     <div className='image'> <img className='user_image' src='https://img.freepik.com/premium-vector/person-avatar-design_24877-38137.jpg?w=2000'/>  </div>
                     <div className='message_logo'> <i class="uil uil-comment-message message"></i> </div>
-                    <div className='logout_logo'> <i class="uil uil-signout"></i></div>
+                   <a href='/logout'> <div className='logout_logo'> <i class="uil uil-signout"></i></div></a>
             
             </div>
 
@@ -104,7 +104,7 @@ function Chat() {
                   
                  <div className='contain_input_camera'>
 
-                 <input className="input_message" type="search"/>
+                 <input className="input_message"/>
                     <i class="uil uil-camera camera"></i>
                  </div>
 
